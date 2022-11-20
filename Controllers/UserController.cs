@@ -33,7 +33,7 @@ namespace ServerApp.Controllers
         {
             var user = new User
             {
-                UserName = model.Name,
+                UserName = model.UserName,
                 Email = model.Email,
                 Name = model.Name,
                 Gender = model.Gender,
